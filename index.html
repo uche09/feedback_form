@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="description" content="Survey form for an ongoing project">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+
+                <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kaushan+Script&family=Roboto+Slab&display=swap" rel="stylesheet">
+
+
+            <!-- placeholder font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kaushan+Script&family=Roboto+Slab:wght@200;400&display=swap" rel="stylesheet">
+
+
+    <title>Survey</title>
+</head>
+<body>
+    <div class="heading">
+        <h1>PROJECT SURVEY</h1>
+        <h2>Your opinion means a lot to us</h2>
+    </div>
+    <br>
+
+    <p>We would like to know what textbook you would recommend for a particular course/profession in your department/field.</p>
+
+    <img class="banner" src="photos/feedback-banner.png" alt="">
+
+    <form action="mailto:covenantjohnson5@gmail.com" method="post" enctype="text/plain">
+        <label for="Name">Name</label>
+        <input class="input" type="text" placeholder="Enter your name">
+        <br><br>
+
+        <label class="required" for="email">Email</label>
+        <input class="input" type="email" name="email" placeholder="Enter your email address" required>
+        <br><br>
+
+        <label class="required" for="department">Department</label>
+        <input class="input" type="text" placeholder="Department/Field" required>
+        <br><br>
+
+        <label for="course">Course</label>
+        <input class="input" type="text" placeholder="Course(s)/Profession(s)">
+        <br><br><br>
+
+        <label class="required" for="Books">Book(s):</label>
+        <br>
+        <textarea name="Books" cols="30" rows="10" placeholder="Write name of books here and their author" required></textarea>
+        <br><br>
+
+        <input type="submit" value="Submit" class="button" >
+    </form>
+</body>
+</html>
