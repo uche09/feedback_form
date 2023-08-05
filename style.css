@@ -29,7 +29,7 @@ p{
 
 .banner{
     position: relative;
-    left: 2rem;
+    left: 5%;
     top: 9rem;
     width: 50%;
 }
@@ -46,10 +46,10 @@ form{
     display: inline-block;
     float: left;
     font-size: 70%;
-    margin: 0 0 0 3rem;
-    padding: 4rem 0.2rem 3rem 1rem;
+    margin: 0 0 0 1.3rem;
+    padding: 4rem 0.2rem 3rem 0.5rem;
     text-align: left;
-    width: 34%;
+    width: 45%;
 }
 
 form .input{
@@ -61,7 +61,7 @@ form .input{
     font-size: 90%;
     height: 1.7rem;
     margin: 0.7rem 0;
-    margin-left: 1.4rem;
+    margin-left: 1rem;
     padding: 0 4px;
     width: 61%;
 }
@@ -122,28 +122,36 @@ form .button:active{
             /* MEDIA QUERIES */
 
         /* Tablets */
-@media screen and (max-width:768px) {
+@media screen and (max-width:798px) {
     
     body{
         font-size: 1.2rem;
     }
     
     .banner{
-        left: 3rem;
+        left: 28%;
+        top: 18rem;
+        width: 52%;
     }
 
     form{
         font-size: 51%;
+        margin-left: 6%;
         width: 40%;
     }
 }
 
 
         /* Mobiles */
-@media screen and (max-width:768px) {
+@media screen and (max-width:480px) {
 
     body{
         font-size: 1.1rem;
+    }
+
+    p{
+        font-size: 1rem;
+        width: 80%;
     }
     
     .banner{
@@ -154,7 +162,8 @@ form .button:active{
 
     form{
         font-size: 65%;
-        width: 70%;
+        margin-left: 3%;
+        width: 88%;
     }
 
     form .button{
