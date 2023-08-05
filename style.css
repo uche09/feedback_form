@@ -1,5 +1,5 @@
 body{
-    background-color: #91C8E4;
+    background-color: #a7d1e6;
     font-family: 'Roboto Slab', cursive;
     font-size: 1.5rem;
     text-align: center;
@@ -41,15 +41,15 @@ form{
     border-top:#73a9ad65;
     border-right: #f7f5f265;
     border-bottom: #f7f5f265;
-    border-radius: 2rem;
+    border-radius: 2.5rem;
     border-style: outset;
     display: inline-block;
     float: left;
     font-size: 70%;
-    margin: 0 0 0 1.3rem;
-    padding: 4rem 0.2rem 3rem 0.5rem;
+    margin: 0 0 0 2rem;
+    padding: 2rem 0.1rem 3rem 1rem;
     text-align: left;
-    width: 45%;
+    width: 39%;
 }
 
 form .input{
@@ -58,12 +58,12 @@ form .input{
     font-family: 'Dancing Script', cursive;
     font-family: 'Kaushan Script', cursive;
     font-family: 'Roboto Slab', serif;
-    font-size: 90%;
-    height: 1.7rem;
-    margin: 0.7rem 0;
+    font-size: 100%;
+    height: 2rem;
+    margin: 1rem 0;
     margin-left: 1rem;
     padding: 0 4px;
-    width: 61%;
+    width: 66%;
 }
 
 input::placeholder{
@@ -128,22 +128,36 @@ form .button:active{
         font-size: 1.2rem;
     }
     
-    .banner{
-        left: 28%;
-        top: 18rem;
+    /* .banner{
+        left: 5%;
+        top: 12rem;
         width: 52%;
-    }
+    } */
 
     form{
         font-size: 51%;
         margin-left: 6%;
-        width: 40%;
+    }
+
+    form .input{
+        height: 1.7rem;
+    }
+
+    form .button{
+        border-radius: 6px;
+        width: 4rem;
+        height: 2rem;
+    }
+
+    form .button:focus{
+        background-color: #91C8E4;
+        color: #F9F5F6;
     }
 }
 
 
         /* Mobiles */
-@media screen and (max-width:480px) {
+@media screen and (max-width:505px) {
 
     body{
         font-size: 1.1rem;
@@ -163,17 +177,11 @@ form .button:active{
     form{
         font-size: 65%;
         margin-left: 3%;
-        width: 88%;
+        width: 80%;
     }
 
-    form .button{
-        border-radius: 6px;
-        width: 4rem;
-        height: 2rem;
+    form .input{
     }
 
-    form .button:focus{
-        background-color: #91C8E4;
-        color: #F9F5F6;
-    }
+   
 }
