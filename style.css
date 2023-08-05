@@ -1,6 +1,6 @@
 body{
     background-color: #91C8E4;
-    font-family: cursive;
+    font-family: 'Roboto Slab', cursive;
     font-size: 1.5rem;
     text-align: center;
 }
@@ -143,7 +143,7 @@ form .button:active{
 @media screen and (max-width:768px) {
 
     body{
-        font-size: 0.9rem;
+        font-size: 1.1rem;
     }
     
     .banner{
